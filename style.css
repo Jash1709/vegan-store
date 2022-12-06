@@ -1,0 +1,578 @@
+body{
+    margin: 0;
+    Font-Family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
+    background-position: left;
+    background-size: cover;
+}
+nav{
+    width: 100%;
+    height: 77px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 28px;
+    box-sizing: border-box;
+    position: fixed;
+}
+nav img{
+    height: 40px;
+    width: 40px;
+}
+.dropdown-wrapper{
+    display: inline-block;
+}
+.menu-items{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.btn{
+    Background-Color: rgb(170, 210, 54);
+    padding: 9px 32px;
+    border: 0;
+    border-radius: 4px;
+    color: white;
+    margin-right: 16px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.fa-caret-down:before {
+    content: "\f0d7";
+}
+#landing-page{
+    width: 100%;
+    height: 100vh;
+}
+.text-wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-wrapper h1{
+    width: 100%;
+    max-width: 1100px;
+    font-size: 44px;
+    color:black;
+    letter-spacing: 8.8px;
+    text-align: center;
+}
+.text-wrapper p{
+    width: 100%;
+    max-width: 1100px;
+    font-size: 14px;
+    font-weight: 400;
+    Color: #8b8b99;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+#steps-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+
+}
+
+#step-1{
+    Background-color: #5acda6;
+}
+#step-2{
+    Background-color: #91ac41;
+}
+#step-3{
+    Background-color: #e4b476;
+}
+#step-4{
+    Background-color: #f69dad;
+}
+.step-items i{
+    Font-Size: 96px;
+}
+.step-items{
+    color: white;
+    width: 25%;
+    padding: 112px 48px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.step-items h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.step-items i:hover{
+    transform: scale(1.1,1.1);
+}
+
+#section-store{
+    width: 100%;
+    Background-color: #f7eee2;
+    box-sizing: border-box;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+#store-heading{
+    color: #91ac41;
+    text-align: center;
+    font-family: 'Caveat',cursive;
+    font-size:"24px";
+    margin: 0;
+    margin-top: 35px;
+}
+#section-store h3{
+    text-align: center;
+    font-size: 48px;
+    margin: 0;
+    text-transform: capitalize;
+}
+#store-des{
+    text-align: center;
+    color: #8b8b99;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+}
+
+.store-wrapper{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: stretch;
+}
+.icon-wrapper{
+    display: inline-block;
+    background-color: #e3b375;
+    padding: 45px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    transition: all 0.3s;
+}
+.icon-wrapper :hover{
+    transform:scale(1.1,1.1);
+}
+.icon-wrapper  i{ 
+    font-size: 60px;
+}
+.store-items{
+    width: 25%;
+    text-align: center;
+    padding: 24px;
+
+}
+.store-items  h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+.store-items  p{
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+#testimonial{
+    width: 100%;
+    Background-color: #ffffff;
+    box-sizing: border-box;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+#testimonial-heading{
+    color: #91ac41;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size:24px;
+    margin: 0;
+    margin-top: 55px;
+}
+#testimonial h3{
+    text-align: center;
+    font-size: 48px;
+    margin: 0;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+#testimonial-des{
+    text-align: center;
+    color: #8b8b99;
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+}
+.card-wrapper{
+    width: 100%;
+    max-width: 1140px;
+    margin : 0 auto;
+    display: flex;
+    align-items: center;
+   
+}
+.card-items{
+    width: 25%;
+    text-align: center;
+    background-color: #f5f6fb;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-top-left-radius: 45px;
+    padding: 40px 30px;
+    margin: 16px;
+}
+.card-items img{
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+.test-message{
+    font-size: 14px;
+    font-style: italic;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+.card-items h4{
+    margin-bottom: 0px;
+}
+.job-role{
+    font-size: 12px;
+    margin: 0;
+    font-style: italic;
+    color: #8b8b99;
+    margin-top: 4px;
+}
+
+.card-items:hover{
+    box-shadow: 0 20px 20px rgb(218, 211, 211);
+}
+#subscribe{
+    display: flex;
+    justify-content: stretch;
+    box-sizing: border-box; 
+}
+.left-section{
+    width: 67%;
+    display: inline-block;
+    margin: 0;
+}
+.left-section img{
+    width: 100%;
+}
+.right-section {
+    width: 33.33%;
+    margin: 0;
+    background: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png");
+    background-size: cover;
+    background-position: left;
+     
+}
+.textwrapper{
+    margin: 115px;
+}
+.textwrapper h2{
+    text-align: left;
+    font-size: 44px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0 0 8px 0;
+}
+.textwrapper p{
+    color: #8b8b99;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}
+#textbox{
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: white;
+    color: #8b8b99;
+    padding: 16px;
+    margin-top: 40px;
+}
+
+#sub-btn{
+    background-color: #f69dad;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+#sub-btn:hover{
+    background: transparent;
+    border: 1px solid #f69dad;
+    color: #f69dad;
+}
+#stats{
+    background-color: rgba(144, 238, 144, 0.116);
+    width: 100%;
+    max-width: 1140px;
+    padding: 100px 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: stretch;
+}
+
+.stats-item{
+    width: 25%;
+    text-align: center;
+    padding: 0 64px;
+}
+.stats-item h1{
+    font-size: 44px;
+    margin: 0 0 8px 0;
+}
+.stats-item p{
+    font-style: italic;
+    margin: 0;
+    color: #57e3b5;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+#video-section > div{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+#video h1{
+    font-size: 44px;
+    font-weight: bold;
+    text-align: center;
+    color: #8b8b99;
+    text-transform: capitalize;
+    padding-top: 75px;
+}
+#line{
+    width: 96px;
+    height: 1px;
+    display: inline-block;
+    background-color: #e4b476;
+    margin-bottom: 36px;
+}
+
+#vimeo-video{
+    width: 100%;
+    height: 400px;
+}
+
+#address-section{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 75px 0;
+    display: flex  ;
+}
+.left-address-section{
+    width: 60%;
+}
+.green-heading{
+    color: #91ac41;
+    font-family: 'Caveat',cursive;
+    font-size:24px;
+}
+.address-heading{
+    font-size: 44px;
+    font-weight: bolder;
+    margin: 0;
+}
+.address-info{
+    color: #8b8b99;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}
+.store-heading{
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0;
+}
+.store-address{
+    color: #8b8b99;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}
+.right-address-section{
+    width: 40%;
+}
+.contact-form-heading{
+    font-size: 44px;
+    font-weight: bolder;
+    margin: 0;
+}
+.contact-form-info{
+    color: #8b8b99;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+}
+.textbox{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #8b8b99;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+}
+form textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #8b8b99;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+}
+#form-btn{
+    background-color:  rgb(170, 210, 54);
+    color: white;
+    padding: 10px 34px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: #232323;
+    color: white;
+    padding: 30px 0;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+@media (max-width: 900px){
+    body{
+        width: 100%;
+    }
+    .menu-items{
+        display: none;
+    }
+    .btn{
+        margin-right: 0;
+    }
+    .text-wrapper > h1
+    {
+        font-size :28px;
+    }
+    .text-wrapper > p{
+        padding: 16px;
+        box-sizing: border-box;
+    }
+
+    #steps-wrapper{
+        width: 100%;
+        flex-direction: column;
+    }
+    .step-items{
+        width: 100%;
+    }
+    #section-store{
+        padding: 16px;
+        box-sizing: border-box;
+    }
+    #section-store h3{
+        font-size: 28px;
+    }
+    .store-wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+    .store-items{
+        width: 100%;
+    }
+    #testimonial{
+        padding: 16px;
+        box-sizing: border-box;
+    }
+    #testimonial h3{
+        font-size: 28px;
+    }
+  
+    .card-wrapper{
+        flex-direction: column;
+    }
+    .card-items{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .test-message{
+        font-size:  16px;
+        line-height: 1.5;
+    }
+    #subscribe{
+        flex-direction: column;
+    }
+    .left-section{
+        width: 100%;
+    }
+    .right-section{
+        width: 100%;
+        margin: 0;
+    }
+    .right-section h2{
+        font-size: 28px;
+    }
+    .textwrapper{
+        margin: 0;
+        padding: 16px;
+    }
+    #stats{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .stats-item{
+        width: 100%;
+    }
+    #video-section div > h1{
+        font-size: 48px;
+        text-transform: capitalize;
+        color: #8b8b99;
+    }
+    #address-section{
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        padding: 16px;
+        padding-top: 0;
+        box-sizing: border-box;
+    }
+    .left-address-section{
+        width: 100%;
+    }
+    .right-address-section{
+        width: 100%;
+    }
+    
+}
